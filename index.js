@@ -1,0 +1,10 @@
+const nombre = 'Ramiro';
+const apellido = 'Caulo';
+let estudiante = `${nombre} ${apellido}`
+let estudianteMayus = estudiante.toUpperCase();
+let estudianteMinus = estudiante.toLowerCase();
+let numLetras = estudiante.length;
+let primeraLetra = nombre.charAt(0);
+let ultimaLetra = apellido.charAt(4);
+let sinEspacios = estudiante.replace(/ /g, "");
+let incluye = estudiante.includes('Ramiro');
